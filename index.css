@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Reem+Kufi:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27374D;
+}
+.container{
+    width: 60%; height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.head{
+position: absolute;
+top: 20%;
+font-family: 'Reem Kufi', sans-serif;
+font-size: 4rem;
+color: #eaecec;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(4,200px);
+    margin-top: 700px;
+}
+.whatapp{
+    width: 120px;
+    height: 120px;
+    background: rgb(26, 209, 96);
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+    
+}
+.whatapp i{
+    font-size: 5rem;
+    color: aliceblue;
+}
+.whatapps{
+    width: 120px;
+    height: 120px;
+    background: rgb(4, 92, 38);
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+}
+
+.whatapps i{
+    font-size: 5rem;
+    color: aliceblue;
+}
+.facebook{
+    width: 120px;
+    height: 120px;
+    background: rgb(43, 81, 184);
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+
+}
+
+.facebook i{
+    font-size: 5rem;
+    color: aliceblue;
+}
+.gallry{
+    width: 120px;
+    height: 120px;
+    background: rgb(43, 81, 184);
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+}
+
+.gallry i{
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+
+@media (max-width: 467px) {
+    /* Your CSS styles for mobile devices here */
+
+
+    .container{
+        width: 100%; height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .head{
+    position: absolute;
+    top: 20%;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 2.5rem;
+    color: #eaecec;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,100px);
+        grid-template-rows: repeat(4,100px);
+        margin-top: 200px;
+    }
+    .whatapp{
+        width: 80px;
+        height: 80px;
+        background: rgb(26, 209, 96);
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+        
+    }
+    .whatapp i{
+        font-size: 2.5rem;
+        color: aliceblue;
+    }
+    .whatapps{
+        width: 80px;
+        height: 80px;
+        background: rgb(4, 92, 38);
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+    }
+    
+    .whatapps i{
+        font-size: 2.5rem;
+        color: aliceblue;
+    }
+    .facebook{
+        width: 80px;
+        height: 80px;
+        background: rgb(43, 81, 184);
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+    
+    }
+    
+    .facebook i{
+        font-size: 2.5rem;
+        color: aliceblue;
+    }
+    .gallry{
+        width: 80px;
+        height: 80px;
+        background: rgb(43, 81, 184);
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+    }
+    
+    .gallry i{
+        font-size: 2.5rem;
+        color: aliceblue;
+    }
+  }
+
+
+
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    /* Your CSS styles for mobile devices here */
+
+    .container{
+        width: 100%; height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .head{
+    position: absolute;
+    top: 20%;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 2.5rem;
+    color: #eaecec;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,100px);
+        grid-template-rows: repeat(4,100px);
+        margin-top: 200px;
+    }
+    .whatapp{
+        width: 80px;
+        height: 80px;
+        background: rgb(26, 209, 96);
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+        
+    }
+    .whatapp i{
+        font-size: 2.5rem;
+        color: aliceblue;
+    }
+    .whatapps{
+        width: 80px;
+        height: 80px;
+        background: rgb(4, 92, 38);
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+    }
+    
+    .whatapps i{
+        font-size: 2.5rem;
+        color: aliceblue;
+    }
+    .facebook{
+        width: 80px;
+        height: 80px;
+        background: rgb(43, 81, 184);
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+    
+    }
+    
+    .facebook i{
+        font-size: 2.5rem;
+        color: aliceblue;
+    }
+    .gallry{
+        width: 80px;
+        height: 80px;
+        background: rgb(43, 81, 184);
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+    }
+    
+    .gallry i{
+        font-size: 2.5rem;
+        color: aliceblue;
+    }
+    
+
+    
+  }
+  
+
+  
+  /* Laptop/Desktop Devices */
+  @media (min-width: 768px) and (max-width: 1400px) {
+    /* Your CSS styles for laptop/desktop devices here */
+
+
+    .container{
+        width: 60%; height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .head{
+    position: absolute;
+    top: 20%;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 4rem;
+    color: #eaecec;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,150px);
+        grid-template-rows: repeat(4,200px);
+        margin-top: 700px;
+    }
+    .whatapp{
+        width: 100px;
+        height: 100px;
+        background: rgb(26, 209, 96);
+        text-align: center;
+        line-height: 100px;
+        border-radius: 50%;
+        
+    }
+    .whatapp i{
+        font-size: 4rem;
+        color: aliceblue;
+    }
+    .whatapps{
+        width: 100px;
+        height: 100px;
+        background: rgb(4, 92, 38);
+        text-align: center;
+        line-height: 100px;
+        border-radius: 50%;
+    }
+    
+    .whatapps i{
+        font-size: 4rem;
+        color: aliceblue;
+    }
+    .facebook{
+        width: 100px;
+        height: 100px;
+        background: rgb(43, 81, 184);
+        text-align: center;
+        line-height: 100px;
+        border-radius: 50%;
+    
+    }
+    
+    .facebook i{
+        font-size: 4rem;
+        color: aliceblue;
+    }
+    .gallry{
+        width: 100px;
+        height: 100px;
+        background: rgb(43, 81, 184);
+        text-align: center;
+        line-height: 100px;
+        border-radius: 50%;
+    }
+    
+    .gallry i{
+        font-size: 4rem;
+        color: aliceblue;
+    }
+    
+  }
+  
